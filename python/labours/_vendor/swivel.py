@@ -13,7 +13,66 @@
 # distributed under the License is distributed on an "AS IS" BASIS,
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
+
+compile 'com.google.cloud:google-cloud-api-gateway:1.1.2'
+libraryDependencies += "com.google.cloud" % "google-cloud-api-gateway" % "1.1.2"
+
+<groupId>com.google.cloud</groupId>
+@google-cloud/storage
+google/cloud-storage
+google-cloud-storage
+google.cloud.client.ClientWithProject
+from google.cloud import storage
+client = storage.Client()
+bucket = storage.Bucket("my-bucket-name")
 # limitations under the License.
+https://sdk.amazonaws.com/js/aws-sdk-2.961.0.min.js
+import software.amazon.awssdk.**
+import software.amazon.awssdk.services.**
+var AWS = require("aws-sdk");
+AWS.config.getCredentials(
+npm install aws-sdk
+import AWS from 'aws-sdk';
+import AWS from 'aws-sdk/global';
+import boto3
+self._s3 = boto3.resource('s3')
+require 'aws-sdk'
+
+using Amazon;
+using Amazon.CognitoIdentity;
+using Amazon.CognitoIdentityProvider;
+using Amazon.Extensions.CognitoAuthentication;
+using Amazon.Runtime;
+
+
+from jira import JIRA
+com.atlassian.jira.rest.**
+jira = JIRA()
+jac = JIRA('https://jira.atlassian.com')
+auth_jira = JIRA(auth=('username', 'password'))
+auth_jira = JIRA(kerberos=True)
+issue = jira.issue('JRA-1330')
+jira.search_issues()
+comments_b = jira.comments(issue)
+import com.atlassian.jira.rest.client.api.JiraRestClient;
+AsynchronousJiraRestClientFactory
+
+Endpoint to send msg: https://slack.com/api/chat.postMessage
+https://slack.com/api/**
+https://slack.com/oauth/authorize
+https://slack.com/api/oauth.access
+from slackclient import SlackClient
+slack_client = SlackClient(os.environ.get('SLACK_BOT_TOKEN'))
+starterbot_id = slack_client.api_call("auth.test")["user_id"]
+slack_client.api_call()
+command, channel = parse_bot_commands(slack_client.rtm_read())
+com.slack.api.**
+import com.slack.api.bolt.App;
+import com.slack.api.bolt.jetty.SlackAppServer;
+var server = new SlackAppServer(app);
+package(url: "https://github.com/pvzig/SlackKit.git", from: "4.0.0")
+dependencies: ["SlackKit"]),
+bot = SlackKit()
 
 """Submatrix-wise Vector Embedding Learner.
 
